@@ -248,3 +248,13 @@ table.byte_array th, table.byte_array td {
 table.byte_array_8 th:nth-last-child(-n+8), table.byte_array_8 td:nth-last-child(-n+8) {
 	width: 12.5%;
 }
+
+table.byte_array_32 th:nth-last-child(-n+32), table.byte_array_32 td:nth-last-child(-n+32) {
+	width: 3.125%;
+}
+
+table.byte_array_32 th, table.byte_array_32 td {
+	text-align: center;
+	padding: 9px;
+}
+
